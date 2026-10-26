@@ -26,7 +26,7 @@ def boolean(value):
 def create_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', choices=['KnowledgeKAN', 'DeepFM', 'HKGR-O'], default='KnowledgeKAN')
-    parser.add_argument('--dataset', choices=['Amazon', 'MovieLens'], default='Amazon')
+    parser.add_argument('--dataset', choices=['Amazon', 'LastFM', 'MovieLens'], default='Amazon')
     parser.add_argument('--data_root', type=Path, default=None)
     parser.add_argument('--output_dir', type=Path, default=Path(__file__).resolve().parent)
     parser.add_argument('--epochs', type=int, default=150)
