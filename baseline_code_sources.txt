@@ -1,0 +1,9 @@
+Baseline Code Sources
+MKR: https://github.com/hwwang55/MKR
+KGCN: https://github.com/hwwang55/KGCN
+KGAT: https://github.com/xiangwang1223/knowledge_graph_attention_network
+KGCL: https://github.com/yuh-yang/KGCL-SIGIR22
+KACL: https://github.com/wsdmanonymous/KACL
+DiffKG: https://github.com/HKUDS/DiffKG
+KAN-GCF: https://github.com/Jinfeng-Xu/FKAN-GCF
+FourierKAN-GCF: https://github.com/Jinfeng-Xu/FKAN-GCF
