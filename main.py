@@ -41,7 +41,7 @@ def create_parser():
     parser.add_argument('--n_sample_kg', type=int, default=None)
     parser.add_argument('--n_layers', type=int, default=2)
     parser.add_argument('--n_ki_layers', type=int, default=2)
-    parser.add_argument('--basis_size', type=int, default=5)
+    parser.add_argument('--basis_size', type=int, default=10)
     parser.add_argument('--spline_order', type=int, default=3)
     parser.add_argument('--epsilon', type=float, default=0.5)
     parser.add_argument('--attention_temperature', type=float, default=1.0)
